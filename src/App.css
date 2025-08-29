@@ -1,0 +1,118 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+.income {
+  background: #28a745;
+}
+.expenses {
+  background: #dc3545;
+}
+.balance {
+  background: #007bff;
+}
+
+.entry-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.entry-form input,
+.entry-form select,
+.entry-form button {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  flex: 1;
+}
+
+.entry-form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.entry-form button:hover {
+  background: #0056b3;
+}
+
+.lists {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.list {
+  flex: 1;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.list h2 {
+  margin-top: 0;
+}
+
+.list-item {
+  margin: 8px 0;
+}
+
+.over-budget {
+  color: red;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.within-budget {
+  color: green;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.budgets {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.budget-item {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
